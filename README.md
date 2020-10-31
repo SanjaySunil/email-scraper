@@ -23,7 +23,6 @@
 
 - [About the Project](#about-the-project)
 - [Features](#features)
-- [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Roadmap](#roadmap)
