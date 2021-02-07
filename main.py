@@ -13,7 +13,7 @@ import webbrowser
 
 # Variables
 ans = True    
-strURL = "https://github.com/D3VSJ/Email-Scraper"
+strURL = "https://github.com/sanjaysunil/Email-Scraper"
 
 # Functions
 # Clear Console
