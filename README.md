@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/D3VSJ/Email-scraper/">
+  <a href="https://github.com/sanjaysunil/Email-scraper/">
     <img src="assets/logo/email-scraper.png" alt="Logo" width="128">
   </a>
 
@@ -11,9 +11,9 @@
     A fast email scraper made with Python!    
     <br />
     <br />
-    <a href="https://github.com/D3VSJ/Email-scraper/issues/new">Report Bug</a>
+    <a href="https://github.com/sanjaysunil/Email-scraper/issues/new">Report Bug</a>
     ·
-    <a href="https://github.com/D3VSJ/Email-scraper/issues/new">Request Feature</a>
+    <a href="https://github.com/sanjaysunil/Email-scraper/issues/new">Request Feature</a>
   </p>
 </p>
 
@@ -72,7 +72,7 @@ pip install uuid
 
 ## Roadmap
 
-See the [open issues](https://github.com/D3VSJ/Email-scraper/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/sanjaysunil/Email-scraper/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -103,7 +103,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Website : [sanjaysunil.me](https://sanjaysunil.me) &nbsp;&middot;&nbsp;
-Email : [D3VSJ@protonmail.com](mailto:D3VSJ@protonmail.com) &nbsp;&middot;&nbsp;
+Email : [sanjaysunil@protonmail.com](mailto:sanjaysunil@protonmail.com) &nbsp;&middot;&nbsp;
 Discord : [D3VSJ#3158](https://discordapp.com/users/732336924559278181)
 
 </div>
