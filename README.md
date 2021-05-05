@@ -56,7 +56,7 @@
 1. Clone the repo
 
 ```sh
-git clone https://github.com/D3VSJ/Email-scraper
+git clone https://github.com/sanjaysunil/Email-scraper
 ```
 
 2. In your terminal, install UUID
