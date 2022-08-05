@@ -102,7 +102,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Website : [sanjaysunil.me](https://sanjaysunil.net) &nbsp;&middot;&nbsp;
+Website : [sanjaysunil.net](https://sanjaysunil.net) &nbsp;&middot;&nbsp;
 Email : [sanjaysunil@protonmail.com](mailto:sanjaysunil@protonmail.com) &nbsp;&middot;&nbsp;
 
 </div>
