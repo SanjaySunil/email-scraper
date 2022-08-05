@@ -102,8 +102,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Website : [sanjaysunil.me](https://sanjaysunil.me) &nbsp;&middot;&nbsp;
+Website : [sanjaysunil.me](https://sanjaysunil.net) &nbsp;&middot;&nbsp;
 Email : [sanjaysunil@protonmail.com](mailto:sanjaysunil@protonmail.com) &nbsp;&middot;&nbsp;
-Discord : [D3VSJ#3158](https://discordapp.com/users/732336924559278181)
 
 </div>
