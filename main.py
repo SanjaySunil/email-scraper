@@ -1,11 +1,10 @@
 """
  * Email Scraper
- * Author: Sanjay Sunil (a.k.a D3VSJ)
+ * Author: Sanjay Sunil
  * License: MIT
 """
 
-import src.menu as app
+from src.email_scraper import EmailScraper
 
-# Menu 
-app.menu()
-
+scraper = EmailScraper(file_path='emails.txt')
+scraper.menu()
