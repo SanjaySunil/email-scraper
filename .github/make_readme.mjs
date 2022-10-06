@@ -22,6 +22,8 @@ template.use_premade("header", {
   request_feature: template.metadata.request_feature,
 });
 
+template.use_component("./readme_components/preview.md", {preview_src: '../assets/preview/preview.png'})
+
 template.use_premade("description", {
   name: template.metadata.name,
   long_description:

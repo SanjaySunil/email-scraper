@@ -12,6 +12,9 @@
 </h1>
 <br/><br/>
 
+![image](../assets/preview/preview.png)
+
+
 <!-- Description -->
 ## What's email-scraper?
 
