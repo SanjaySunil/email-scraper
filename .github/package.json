@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "node make_readme.mjs"
+  },
+  "dependencies": {
+    "readme-components": "^1.2.0"
+  }
+}
