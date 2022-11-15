@@ -13,7 +13,6 @@ class EmailScraper:
     def __init__(self, file_path):
         self._DOMAIN = "fyii.de/trashmail/"
         self._EMAIL_DOMAIN = "@fyii.de"
-        self._GITHUB_URL = "https://github.com/sanjaysunil/email-scraper"
         self._file_path = file_path
 
     def __scrape(self):

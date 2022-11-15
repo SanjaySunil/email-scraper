@@ -8,7 +8,8 @@ import webbrowser
 from src.email_scraper import EmailScraper
 
 OPTIONS = ["Scrape 1 Email", "Scrape Multiple Emails",
-           "GitHub", "Exit"]
+           "View Project Information", "Exit"]
+PROJECT_URL = "https://github.com/sanjaysunil/email-scraper"
 os.system('clear')
 
 while True:
@@ -40,7 +41,7 @@ while True:
             f'Added {emails} emails to {scraper._file_path}!\n\nPress enter to go back to menu. ')
 
     elif option == 3:
-        webbrowser.open(scraper._GITHUB_URL)
+        webbrowser.open(PROJECT_URL)
 
     elif option == 4:
       exit("Thank you for using email-scraper.")
