@@ -25,10 +25,15 @@ class EmailScraper:
         scraped_emails = 0
         exists = os.path.isfile(self._file_path)
 
-        if exists:
-            file_handler = open(self._file_path, "a")
-        else:
-            file_handler = open(self._file_path, "w+")
+        try:
+          if exists:
+              file_handler = open(self._file_path, "a")
+          else:
+              file_handler = open(self._file_path, "w+")
+
+        except FileNotFoundError:
+          if self._file_path == '': return 'Cannot write to a file with no name!'
+          else: return 'Cannot write to specified file!'
 
         while scraped_emails != emails:
             email, email_link = self.__scrape()
@@ -36,3 +41,5 @@ class EmailScraper:
             scraped_emails += 1
 
         file_handler.close()
+
+        return f'Added {emails} emails to {self._file_path}!'
