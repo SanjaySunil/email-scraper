@@ -25,6 +25,22 @@ class EmailScraper:
         email = random_uuid[:8]+self._EMAIL_DOMAIN
         return email, email_link
 
+    def __start(self, emails):
+        scraped_emails = 0
+        exists = os.path.isfile(self._file_path)
+
+        if exists:
+            file_handler = open(self._file_path, "a")
+        else:
+            file_handler = open(self._file_path, "w+")
+
+        while scraped_emails != emails:
+            email, email_link = self.__scrape()
+            file_handler.write(email+'\n'+email_link+'\n'+'\n')
+            scraped_emails += 1
+
+        file_handler.close()
+
     def menu(self):
         OPTIONS = [["Scrape 1 Email"], ["Scrape Multiple Emails"], [
             "GitHub"], ["Exit"]]
@@ -53,19 +69,3 @@ class EmailScraper:
             else:
                 try_again = input(
                     'Invalid option, please enter to try again. ')
-
-    def __start(self, emails):
-        scraped_emails = 0
-        exists = os.path.isfile(self._file_path)
-
-        if exists:
-            file_handler = open(self._file_path, "a")
-        else:
-            file_handler = open(self._file_path, "w+")
-
-        while scraped_emails != emails:
-            email, email_link = self.__scrape()
-            file_handler.write(email+'\n'+email_link+'\n'+'\n')
-            scraped_emails += 1
-
-        file_handler.close()
