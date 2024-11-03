@@ -4,7 +4,7 @@
 
 ![image](./assets/preview/preview.png)
 
-## For Business Inquiries
+## Custom Project Solutions
 
 For tailored project solutions and business inquiries, please email [contact@sanjaysunil.com](mailto:contact@sanjaysunil.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/sanjaysunil).
 
