@@ -2,7 +2,7 @@
 
 **Email Scraper** is a powerful temporary email generator that enables users to **generate thousands of unique temporary emails in seconds**. Built with Python, this tool uses the [fyii.de](https://fyii.de) trashmail provider to create emails that come with their own inboxes, allowing you to receive messages without using your personal email address.
 
-![image](../assets/preview/preview.png)
+![image](./assets/preview/preview.png)
 
 ## For Business Inquiries
 
