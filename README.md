@@ -1,108 +1,55 @@
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/sanjaysunil/Email-scraper/">
-    <img src="assets/logo/email-scraper.png" alt="Logo" width="128">
-  </a>
+# Email Scraper
 
-  <h1 align="center">Email Scraper</h1>
+**Email Scraper** is a powerful temporary email generator that enables users to **generate thousands of unique temporary emails in seconds**. Built with Python, this tool uses the [fyii.de](https://fyii.de) trashmail provider to create emails that come with their own inboxes, allowing you to receive messages without using your personal email address.
 
-  <p align="center">
-    A fast email scraper made with Python!    
-    <br />
-    <br />
-    <a href="https://github.com/sanjaysunil/Email-scraper/issues/new">Report Bug</a>
-    ·
-    <a href="https://github.com/sanjaysunil/Email-scraper/issues/new">Request Feature</a>
-  </p>
-</p>
+![image](../assets/preview/preview.png)
 
-<!-- TABLE OF CONTENTS -->
+## For Business Inquiries
 
-## Table of Contents
-
-- [About the Project](#about-the-project)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Built With](#built-with)
-- [Contact](#contact)
-
-<!-- ABOUT THE PROJECT -->
-
-## About The Project
-
-<img src="assets/preview/preview.png" alt="Logo" width="100%" height="100%">
-
-**Email Scraper** is a powerful email scraper that allows you to scrape 2000 temporary emails per minute using Python! Email Scraper uses https://fyii.de/trashmail/ to scrape emails. All emails are unique.
+For tailored project solutions and business inquiries, please email [contact@sanjaysunil.com](mailto:contact@sanjaysunil.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/sanjaysunil).
 
 ## Features
 
-- Fast scraping (2000 emails per minute)
-- Python menu
-
+- Generate thousands of unique temporary emails quickly.
+- Each email comes with its own inbox.
+- Perfect for using services where you prefer not to provide your personal email.
 
 ## Prerequisites
 
-- Email Scraper requires Python 3+ installed.
-- PIP
-- UUID 
+Ensure you have Python 3 installed. `pip` is also required to install important packages for the tool.
+
+### Requirements
+
+- `uuid` is the only requirement for this project:
+   ```bash
+   pip install uuid
+   ```
 
 ## Installation
 
-1. Clone the repo
+To set up Email Scraper, follow these steps:
 
-```sh
-git clone https://github.com/sanjaysunil/Email-scraper
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SanjaySunil/email-scraper.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd email-scraper
+   ```
+3. Install the required package:
+   ```bash
+   pip install uuid
+   ```
+4. Run the script:
+   ```bash
+   python main.py
+   ```
 
-2. In your terminal, install UUID
-```sh
-pip install uuid
-```
+## Usage
 
-3. Run main.py 
-
-4. Choose option 1 and start scraping
-
-5. Check emails.txt!
-
-## Roadmap
-
-See the [open issues](https://github.com/sanjaysunil/Email-scraper/issues) for a list of proposed features (and known issues).
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<!-- LICENSE -->
+Once you run `main.py`, follow the menu prompts to generate temporary emails.
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
-### Built With
-
-- [Python](https://python.org)
-
----
-
-<div align="center">    
-
-## Contact
-
-Website : [sanjaysunil.net](https://sanjaysunil.net) &nbsp;&middot;&nbsp;
-Email : [sanjaysunil@protonmail.com](mailto:sanjaysunil@protonmail.com) &nbsp;&middot;&nbsp;
-
-</div>
+This project is licensed under the MIT License.
